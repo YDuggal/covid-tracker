@@ -41,7 +41,7 @@ function LineGraph() {
             <h1> Im a graphhh</h1>
             <Line data={{
                 datasets: [{
-                    backgroundColor: rgba(204,16,52,0),
+                    'backgroundColor': 'rgba(204,16,52,0)',
                     borderColor: '#CC1034',
                     data: data,
                 },
