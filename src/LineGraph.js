@@ -91,7 +91,9 @@ function LineGraph({ casesType = 'cases' }) {
         <div>
             {/* <h1></h1> */}
             {data?.length > 0 && (
-                <Line data={{
+                <Line 
+                options = {options}
+                data={{
                 datasets: [{
                     'backgroundColor': 'rgba(204,16,52,0)',
                     borderColor: '#CC1034',
